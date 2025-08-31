@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import './index.css';
 
 function App() {
-  const [messages, setMessages] = useState(["hi there"]);
+  const [messages, setMessages] = useState(["Backend Loading..."]);
   const [isReady, setIsReady] = useState(false);
   const wsRef = useRef<WebSocket | null>(null);
 
